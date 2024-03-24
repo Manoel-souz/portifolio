@@ -32,7 +32,7 @@
 .mraro_all_wrap[data-color="green"] .mraro_topbar .menu ul li.current a{color: #66B95C;}
 .mraro_all_wrap[data-color="green"] .mraro_topbar .menu ul li a:hover{color: #66B95C;}
 .mraro_all_wrap[data-color="green"] .mraro_title_holder span{color: #66B95C;}
-.mraro_all_wrap[data-color="green"] #h1 span{color: #66b95c;}
+.mraro_all_wrap[data-color="green"] .sobrenome {color: #66b95c;}
 .mraro_all_wrap[data-color="green"] .mraro_button a{background-color: #66B95C;border-color:#66B95C;}
 .mraro_all_wrap[data-color="green"] .mraro_news .news_list ul li .details .title a:hover{color: #66B95C;}
 .mraro_all_wrap[data-color="green"] .mraro_news .news_list ul li .details .date a:hover{color: #66B95C;}

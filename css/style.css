@@ -1,3 +1,4 @@
+
 @charset "utf-8";
 /*
 /*	Copyright (c) 2022 Marketify
@@ -102,6 +103,12 @@ h4 { font-size: 24px; }
 h5 { font-size: 20px; }
 h6 { font-size: 16px; }
 
+.elementor-video{
+	align-content: center;
+	width: 100%;
+	height: auto;
+}
+
 .mraro_all_wrap{
 	width: 100%;
 	height: auto;
@@ -111,9 +118,8 @@ h6 { font-size: 16px; }
 }
 .mraro_all_wrap,
 .mraro_all_wrap *{
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */
+	-moz-box-sizing: content-box; /* Firefox, other Gecko */
+	box-sizing: content-box; /* Opera/IE 8+ */
 }
 .mraro_section{
 	width: 100%;
@@ -121,6 +127,7 @@ h6 { font-size: 16px; }
 	clear: both;
 	float: left;
 }
+
 #preloader {
     position: fixed;
     left: 0;
@@ -481,11 +488,12 @@ h6 { font-size: 16px; }
 .mraro_hero.creative.shape{clip-path:none;}
 .mraro_hero.shape{clip-path: polygon(0 0, 100% 0, 100% 83%, 25% 100%, 0 83%);}
 .mraro_hero .bg{
+	background: #cdcbcd;
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
 	left: 0px;
-	right: 0px;
+	right: -5px;
 }
 .mraro_hero .bg .image{
 	position: absolute;
@@ -1872,7 +1880,7 @@ body.modal{
 	position: fixed;
 	z-index: 20;
 	top: 20%;
-	right: -200px;
+	right: -250px;
 	width: 200px;
 	background-color: rgba(0,0,0,1.00);
 	padding: 40px 20px 33px 30px;
