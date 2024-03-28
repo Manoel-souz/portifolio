@@ -850,9 +850,156 @@ h6 { font-size: 16px; }
 @keyframes wow {0%{ width:0%; } 100%{ width:100%; }}
 
 /*---------------------------------------------------*/
+/*	6) MRARO PORTFOLIO novo
+/*---------------------------------------------------
+
+.mraro_title_holder{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.mraro_title_holder span{color: #e54b4b;	}
+.mraro_title_holder h3{
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 10px;
+	
+}
+.mraro_portfolio{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding: 140px 0px 100px 0px;
+	background-color: #f9f9f9;
+}
+
+.mraro_portfolio .portfolio_list{
+	display: flex;
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding-top: 90px;
+}
+
+.indexes,
+.tabs {
+  list-style-type: none;
+}
+
+.indexes {
+	font-size: 1rem;
+	width: max-content;
+
+  & li {
+    padding: 1rem;
+    border: 1px solid transparent;
+    cursor: pointer;
+  }
+}
+
+.tabs {
+	display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.tab {
+  	position: absolute;
+	display: flex;
+	width: 100%;
+	height: auto;
+	opacity: 0;
+	overflow: hidden;
+}
+
+.tab-content {
+  position: relative;
+  z-index: 5;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  opacity: 0;
+  transform: translateY(-5rem);
+
+  & h3 {
+    font-family: helvetica;
+    font-weight: 900;
+    font-size: 1rem;
+    border-bottom: 1.5px solid black;
+    padding-bottom: 1rem;
+  }
+
+  & button {
+    width: fit-content;
+    background-color: transparent;
+    color: #242424;
+    border: 1px solid black;
+    font-size: 0.7rem;
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+  }
+}
+
+@keyframes content {
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.tab-image {
+  position: relative;
+  right: 1rem;
+  width: 250px;
+  height: 200px;
+  opacity: 0;
+  transform: translateX(2rem);
+
+	
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: var(-overlay);
+    mix-blend-mode: multiply;
+  }
+
+  & img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    filter: grayscale(100%);
+  }
+}
+
+
+@keyframes image {
+  100% {
+    opacity: 1;
+    width: 300px;
+    transform: translateX(0);
+  }
+}
+
+.active .tab {
+  opacity: 1;
+  z-index: 5;
+}
+.active .tab-content {
+  animation: content 0.9s ease-out 0.4s forwards;
+}
+.active .tab-image {
+  animation: image 1s ease-out forwards;
+}
+
+/*---------------------------------------------------*/
 /*	06) MRARO PORTFOLIO
 /*---------------------------------------------------*/
-
 .mraro_title_holder{
 	width: 100%;
 	height: auto;
@@ -888,7 +1035,7 @@ h6 { font-size: 16px; }
 .mraro_portfolio ul li{
 	margin: 0px 0px 50px 0px;
 	float: left;
-	width: 33.3333%;
+	width: 29.3333%;
 	padding-left: 50px;
 }
 .mraro_portfolio ul li .list_inner{

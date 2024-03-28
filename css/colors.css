@@ -19,7 +19,7 @@
 .mraro_all_wrap[data-color="blue"] .mraro_topbar .menu ul li.current a{color: #4169e1;}
 .mraro_all_wrap[data-color="blue"] .mraro_topbar .menu ul li a:hover{color: #4169e1;}
 .mraro_all_wrap[data-color="blue"] .mraro_title_holder span{color: #4169e1;}
-.mraro_all_wrap[data-color="blue"] .fn_animation h1 span{color: #4169e1;}
+.mraro_all_wrap[data-color="blue"] #h1{color: #4169e1;}
 .mraro_all_wrap[data-color="blue"] .mraro_button a{background-color: #4169e1;border-color:#4169e1;}
 .mraro_all_wrap[data-color="blue"] .mraro_news .news_list ul li .details .title a:hover{color: #4169e1;}
 .mraro_all_wrap[data-color="blue"] .mraro_news .news_list ul li .details .date a:hover{color: #4169e1;}
@@ -32,7 +32,7 @@
 .mraro_all_wrap[data-color="green"] .mraro_topbar .menu ul li.current a{color: #66B95C;}
 .mraro_all_wrap[data-color="green"] .mraro_topbar .menu ul li a:hover{color: #66B95C;}
 .mraro_all_wrap[data-color="green"] .mraro_title_holder span{color: #66B95C;}
-.mraro_all_wrap[data-color="green"] .sobrenome {color: #66b95c;}
+.mraro_all_wrap[data-color="green"] #h1{color: #66b95c;}
 .mraro_all_wrap[data-color="green"] .mraro_button a{background-color: #66B95C;border-color:#66B95C;}
 .mraro_all_wrap[data-color="green"] .mraro_news .news_list ul li .details .title a:hover{color: #66B95C;}
 .mraro_all_wrap[data-color="green"] .mraro_news .news_list ul li .details .date a:hover{color: #66B95C;}
@@ -45,7 +45,7 @@
 .mraro_all_wrap[data-color="brown"] .mraro_topbar .menu ul li.current a{color: #ff9800;}
 .mraro_all_wrap[data-color="brown"] .mraro_topbar .menu ul li a:hover{color: #ff9800;}
 .mraro_all_wrap[data-color="brown"] .mraro_title_holder span{color: #ff9800;}
-.mraro_all_wrap[data-color="brown"] .fn_animation h1 span{color: #ff9800;}
+.mraro_all_wrap[data-color="brown"] #h1{color: #ff9800;}
 .mraro_all_wrap[data-color="brown"] .mraro_button a{background-color: #ff9800;border-color:#ff9800;}
 .mraro_all_wrap[data-color="brown"] .mraro_news .news_list ul li .details .title a:hover{color: #ff9800;}
 .mraro_all_wrap[data-color="brown"] .mraro_news .news_list ul li .details .date a:hover{color: #ff9800;}
@@ -58,7 +58,7 @@
 .mraro_all_wrap[data-color="pink"] .mraro_topbar .menu ul li.current a{color: #ff5e94;}
 .mraro_all_wrap[data-color="pink"] .mraro_topbar .menu ul li a:hover{color: #ff5e94;}
 .mraro_all_wrap[data-color="pink"] .mraro_title_holder span{color: #ff5e94;}
-.mraro_all_wrap[data-color="pink"] .fn_animation h1 span{color: #ff5e94;}
+.mraro_all_wrap[data-color="pink"] #h1{color: #ff5e94;}
 .mraro_all_wrap[data-color="pink"] .mraro_button a{background-color: #ff5e94;border-color:#ff5e94;}
 .mraro_all_wrap[data-color="pink"] .mraro_news .news_list ul li .details .title a:hover{color: #ff5e94;}
 .mraro_all_wrap[data-color="pink"] .mraro_news .news_list ul li .details .date a:hover{color: #ff5e94;}
@@ -71,7 +71,7 @@
 .mraro_all_wrap[data-color="orange"] .mraro_topbar .menu ul li.current a{color: #fa5b0f;}
 .mraro_all_wrap[data-color="orange"] .mraro_topbar .menu ul li a:hover{color: #fa5b0f;}
 .mraro_all_wrap[data-color="orange"] .mraro_title_holder span{color: #fa5b0f;}
-.mraro_all_wrap[data-color="orange"] .fn_animation h1 span{color: #fa5b0f;}
+.mraro_all_wrap[data-color="orange"] #h1{color: #fa5b0f;}
 .mraro_all_wrap[data-color="orange"] .mraro_button a{background-color: #fa5b0f;border-color:#fa5b0f;}
 .mraro_all_wrap[data-color="orange"] .mraro_news .news_list ul li .details .title a:hover{color: #fa5b0f;}
 .mraro_all_wrap[data-color="orange"] .mraro_news .news_list ul li .details .date a:hover{color: #fa5b0f;}
@@ -84,7 +84,7 @@
 .mraro_all_wrap[data-color="black"] .mraro_topbar .menu ul li.current a{color: #000;}
 .mraro_all_wrap[data-color="black"] .mraro_topbar .menu ul li a:hover{color: #000;}
 .mraro_all_wrap[data-color="black"] .mraro_title_holder span{color: #000;}
-.mraro_all_wrap[data-color="black"] .fn_animation h1 span{color: #000;}
+.mraro_all_wrap[data-color="black"] #h1{color: #000;}
 .mraro_all_wrap[data-color="black"] .mraro_button a{background-color: #000;border-color:#000;}
 .mraro_all_wrap[data-color="black"] .mraro_news .news_list ul li .details .title a:hover{color: #000;}
 .mraro_all_wrap[data-color="black"] .mraro_news .news_list ul li .details .date a:hover{color: #000;}
@@ -97,7 +97,7 @@
 .mraro_all_wrap[data-color="white"] .mraro_topbar .menu ul li.current a{color: #fff;}
 .mraro_all_wrap[data-color="white"] .mraro_topbar .menu ul li a:hover{color: #fff;}
 .mraro_all_wrap[data-color="white"] .mraro_title_holder span{color: #fff;}
-.mraro_all_wrap[data-color="white"] .fn_animation h1 span{color: #fff;}
+.mraro_all_wrap[data-color="white"] #h1{color: #fff;}
 .mraro_all_wrap[data-color="white"] .mraro_button a{background-color: #fff;border-color:#fff;color: #000;}
 .mraro_all_wrap[data-color="white"] .mraro_news .news_list ul li .details .title a:hover{color: #fff;}
 .mraro_all_wrap[data-color="white"] .mraro_news .news_list ul li .details .date a:hover{color: #fff;}
@@ -110,7 +110,7 @@
 .mraro_all_wrap[data-color="purple"] .mraro_topbar .menu ul li.current a{color: #9200ee;}
 .mraro_all_wrap[data-color="purple"] .mraro_topbar .menu ul li a:hover{color: #9200ee;}
 .mraro_all_wrap[data-color="purple"] .mraro_title_holder span{color: #9200ee;}
-.mraro_all_wrap[data-color="purple"] .fn_animation h1 span{color: #9200ee;}
+.mraro_all_wrap[data-color="purple"] #h1{color: #9200ee;}
 .mraro_all_wrap[data-color="purple"] .mraro_button a{background-color: #9200ee;border-color:#9200ee;}
 .mraro_all_wrap[data-color="purple"] .mraro_news .news_list ul li .details .title a:hover{color: #9200ee;}
 .mraro_all_wrap[data-color="purple"] .mraro_news .news_list ul li .details .date a:hover{color: #9200ee;}
@@ -123,7 +123,7 @@
 .mraro_all_wrap[data-color="sky"] .mraro_topbar .menu ul li.current a{color: #00D4BD;}
 .mraro_all_wrap[data-color="sky"] .mraro_topbar .menu ul li a:hover{color: #00D4BD;}
 .mraro_all_wrap[data-color="sky"] .mraro_title_holder span{color: #00D4BD;}
-.mraro_all_wrap[data-color="sly"] .fn_animation h1 span{color: #00D4BD;}
+.mraro_all_wrap[data-color="sly"] #h1{color: #00D4BD;}
 .mraro_all_wrap[data-color="sky"] .mraro_button a{background-color: #00D4BD;border-color:#00D4BD;}
 .mraro_all_wrap[data-color="sky"] .mraro_news .news_list ul li .details .title a:hover{color: #00D4BD;}
 .mraro_all_wrap[data-color="sky"] .mraro_news .news_list ul li .details .date a:hover{color: #00D4BD;}
@@ -136,7 +136,7 @@
 .mraro_all_wrap[data-color="cadetBlue"] .mraro_topbar .menu ul li.current a{color: #5e9e9f;}
 .mraro_all_wrap[data-color="cadetBlue"] .mraro_topbar .menu ul li a:hover{color: #5e9e9f;}
 .mraro_all_wrap[data-color="cadetBlue"] .mraro_title_holder span{color: #5e9e9f;}
-.mraro_all_wrap[data-color="cadetblue"] .fn_animation h1 span{color: #5e9e9f;}
+.mraro_all_wrap[data-color="cadetblue"] #h1{color: #5e9e9f;}
 .mraro_all_wrap[data-color="cadetBlue"] .mraro_button a{background-color: #5e9e9f;border-color:#5e9e9f;}
 .mraro_all_wrap[data-color="cadetBlue"] .mraro_news .news_list ul li .details .title a:hover{color: #5e9e9f;}
 .mraro_all_wrap[data-color="cadetBlue"] .mraro_news .news_list ul li .details .date a:hover{color: #5e9e9f;}
@@ -149,7 +149,7 @@
 .mraro_all_wrap[data-color="olive"] .mraro_topbar .menu ul li.current a{color: #666d41;}
 .mraro_all_wrap[data-color="olive"] .mraro_topbar .menu ul li a:hover{color: #666d41;}
 .mraro_all_wrap[data-color="olive"] .mraro_title_holder span{color: #666d41;}
-.mraro_all_wrap[data-color="olive"] .fn_animation h1 span{color: #666d41;}
+.mraro_all_wrap[data-color="olive"] #h1{color: #666d41;}
 .mraro_all_wrap[data-color="olive"] .mraro_button a{background-color: #666d41;border-color:#666d41;}
 .mraro_all_wrap[data-color="olive"] .mraro_news .news_list ul li .details .title a:hover{color: #666d41;}
 .mraro_all_wrap[data-color="olive"] .mraro_news .news_list ul li .details .date a:hover{color: #666d41;}
@@ -162,7 +162,7 @@
 .mraro_all_wrap[data-color="crimson"] .mraro_topbar .menu ul li.current a{color: #e54b4b;}
 .mraro_all_wrap[data-color="crimson"] .mraro_topbar .menu ul li a:hover{color: #e54b4b;}
 .mraro_all_wrap[data-color="crimson"] .mraro_title_holder span{color: #e54b4b;}
-.mraro_all_wrap[data-color="crimson"] .fn_animation h1 span{color: #e54b4b;}
+.mraro_all_wrap[data-color="crimson"] #h1{color: #e54b4b;}
 .mraro_all_wrap[data-color="crimson"] .mraro_button a{background-color: #e54b4b;border-color:#e54b4b;}
 .mraro_all_wrap[data-color="crimson"] .mraro_news .news_list ul li .details .title a:hover{color: #e54b4b;}
 .mraro_all_wrap[data-color="crimson"] .mraro_news .news_list ul li .details .date a:hover{color: #e54b4b;}
@@ -175,7 +175,7 @@
 .mraro_all_wrap[data-color="red"] .mraro_topbar .menu ul li.current a{color: #fe0000;}
 .mraro_all_wrap[data-color="red"] .mraro_topbar .menu ul li a:hover{color: #fe0000;}
 .mraro_all_wrap[data-color="red"] .mraro_title_holder span{color: #fe0000;}
-.mraro_all_wrap[data-color="red"] .fn_animation h1 span{color: #fe0000;}
+.mraro_all_wrap[data-color="red"] #h1{color: #fe0000;}
 .mraro_all_wrap[data-color="red"] .mraro_button a{background-color: #fe0000;border-color:#fe0000;}
 .mraro_all_wrap[data-color="red"] .mraro_news .news_list ul li .details .title a:hover{color: #fe0000;}
 .mraro_all_wrap[data-color="red"] .mraro_news .news_list ul li .details .date a:hover{color: #fe0000;}
