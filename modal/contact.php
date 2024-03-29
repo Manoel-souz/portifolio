@@ -23,8 +23,8 @@ if (filter_var($php_email, FILTER_VALIDATE_EMAIL)) {
 		// To send HTML mail, the Content-type header must be set
 		$php_headers = 'MIME-Version: 1.0' . "\r\n";
 		$php_headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-		$php_headers .= 'From:' . $php_email. "\r\n"; // Sender's Email
-		$php_headers .= 'Cc:' . $php_email. "\r\n"; // Carbon copy to Sender
+		$php_headers .= 'From:' . $php_email. "\r\n"; manoel@optionstech.com.br // Sender's Email
+		$php_headers .= 'Cc:' . $php_email. "\r\n"; contato@optionstech.com.br // Carbon copy to Sender
 		
 		$php_template = '<div style="padding:50px;">Hello ' . $php_name . ',<br/>'
 		. 'Obrigado por entrar em contato comigo.<br/><br/>'
